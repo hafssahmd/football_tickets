@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="40" viewBox="0 0 300 40" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#666">
+        <text x="10" y="25" font-family="Arial" font-size="14">Paiement sécurisé</text>
+        <text x="150" y="25" font-family="Arial" font-size="14">Visa</text>
+        <text x="200" y="25" font-family="Arial" font-size="14">Mastercard</text>
+        <text x="270" y="25" font-family="Arial" font-size="14">PayPal</text>
+    </g>
+</svg> 

@@ -1,0 +1,73 @@
+/* Mobile First Approach */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .match-card {
+        margin-bottom: 15px;
+    }
+    
+    .match-details-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .ticket-categories {
+        display: block;
+    }
+    
+    .ticket-category {
+        margin-bottom: 15px;
+    }
+    
+    .cart-table {
+        font-size: 14px;
+    }
+    
+    .cart-item-actions {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    /* Navigation mobile */
+    .navbar-toggle {
+        display: block;
+    }
+    
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-menu.active {
+        display: block;
+    }
+}
+
+/* Tablettes */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .matches-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ticket-categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    .matches-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .ticket-categories {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
